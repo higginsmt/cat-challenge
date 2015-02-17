@@ -4,57 +4,93 @@
   <style>
 
     body {
-      font-family: Arial;
+      font-family: Helvetica;
     }
 
     a {
       text-decoration: none;
+      color: #606060;
     }
+
     a:hover {
-      color: purple;
-    }
-
-    nav {
-      height: 20px;
-      line-height:100%;
-      padding-left: 10%;
-      padding-right: 10%;
-      padding-bottom: 2%;
-
-    }
-
-    #meh {
-      float:left;
-      font-size:20pt;
-      padding-top: 15px;
-    }
-
-    ul {
-      float: right;
-      padding: 5px;
-      font-size:10pt;
+      color: black;
     }
 
     li {
       display: inline;
-      padding: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    nav {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      height: 80px;
+      width: 100%;
+      background-color: #F0F0F0;
+    }
+
+    #innernav {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      height: 60px;
+      width: 80%;
+
+    }
+
+    #meh {
+      padding-top: 15px;
+      float:left;
+      font-size:20pt;
+    }
+
+    #navlinks {
+      padding-top: 10px;
+      float: right;
+      font-size: 10pt;
     }
 
     header {
-      position: relative;
+      position: fixed;
+      top: 80px;
+      left: 0px;
       background-image: url("banner.jpg");
       background-position: center;
       height: 499px;
+      width: 100%;
     }
 
     #ohgreat {
-      color: red;
+      padding-left: 12%;
+      padding-top: 8%;
+    }
 
+    .bigtext {
+      padding: 8px;
+      color: white;
+      font-weight: bold;
+      font-size: 28pt;
     }
 
     section {
-
+      position: fixed;
+      top: 580px;
     }
+
+    .container {
+      background-color: pink;
+      text-align: center;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+
+
+
+
     footer {
 
     }
@@ -62,31 +98,50 @@
 </head>
 
 <body>
-
   <nav>
-    <div id="meh">
-      meh
+    <div id="innernav">
+      <div id="meh">
+        meh
+      </div>
+      <ul id="navlinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
   </nav>
-
   <header>
     <div id="ohgreat">
-      <p>oh great...</p>
-      <p>I'm a background</p>
+      <div class="bigtext"> oh great... </div>
+      <div class="bigtext"> I'm a background.</div>
     </div>
   </header>
 
+  <section id="1">
+    <div class="container">
+      <h1>Lorem Ipsum is simply dummy</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem upsum has been the industry's stanard dummy text ever since the 1500's, when an unknown</p>
+    </container>
+
+    <div>
+      <img src="grumpy1.jpg">
+    <div>
+
+     <div>
+      <img src="grumpy1.jpg">
+    <div>
+
+     <div>
+      <img src="grumpy1.jpg">
+    <div>
+  </section>
+
   <section>
   </section>
-  <section>
-  </section>
+
   <footer>
+    something
   </footer>
 </body>
 </html>

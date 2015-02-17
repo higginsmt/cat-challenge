@@ -23,9 +23,7 @@
     }
 
     nav {
-      position: fixed;
-      top: 0px;
-      left: 0px;
+      display: inline-block;
       height: 80px;
       width: 100%;
       background-color: #F0F0F0;
@@ -37,7 +35,6 @@
       margin-top: 10px;
       height: 60px;
       width: 80%;
-
     }
 
     #meh {
@@ -53,12 +50,11 @@
     }
 
     header {
-      position: fixed;
-      top: 80px;
-      left: 0px;
+      display: block;
       background-image: url("banner.jpg");
       background-position: center;
       height: 499px;
+      margin: 0 auto;
       width: 100%;
     }
 
@@ -75,23 +71,41 @@
     }
 
     section {
-      position: fixed;
-      top: 580px;
+      width: 80%;
+      margin: 0 auto;
+
     }
 
     .container {
-      background-color: pink;
-      text-align: center;
+      background-color: white;
       width: 80%;
       margin-right: auto;
       margin-left: auto;
+      text-align: center;
+    }
+
+    .catbox {
+      background-image: linear-gradient(rgba(1, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("grumpy1.jpg");
+      opacity: .9;
+      display: inline-block;
+      height: 225px;
+      width: 225px;
+      margin: 5px;
+      border-style: inset;
+    }
+
+    .boxtext {
+      text-align: center;
+      color: white;
+      font-size: 18pt;
+      padding-top: 100px;
     }
 
 
-
-
-
     footer {
+      background-color: pink;
+      padding-top: 50px;
+      padding-bottom: 50px;
 
     }
   </style>
@@ -122,26 +136,33 @@
     <div class="container">
       <h1>Lorem Ipsum is simply dummy</h1>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem upsum has been the industry's stanard dummy text ever since the 1500's, when an unknown</p>
-    </container>
+    </div>
+    <div class="container">
+      <div class="catbox">
+        <div class="boxtext">lorem ipsum</div>
+      </div>
+      <div class="catbox">
+        <div class="boxtext">lorem ipsum</div>
+      </div>
+      <div class="catbox">
+        <div class="boxtext">lorem ipsum</div>
+      </div>
 
-    <div>
-      <img src="grumpy1.jpg">
-    <div>
-
-     <div>
-      <img src="grumpy1.jpg">
-    <div>
-
-     <div>
-      <img src="grumpy1.jpg">
-    <div>
+    </div>
   </section>
 
+  <br>
+
   <section>
+    <div class="container">
+      Section
+    </div>
   </section>
 
   <footer>
-    something
+    <div class="container">
+      Footer
+    </div>
   </footer>
 </body>
 </html>

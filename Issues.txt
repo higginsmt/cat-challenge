@@ -1,0 +1,8 @@
+
+Things I Know I Didn't Get:
+- The CSS image manipulation. The border is the un-darkened image. I couldn't find any good way to do this.
+- The two-line middle box "lorem ipsum/ipsum lorem". Everything I tried threw the boxes out of alignment. I also tried switching them to images instead of background images, but then I couldn't get the text to sit where I wanted it. Good challenge, I was stumped.
+
+Other Known Issues:
+- There are small white gaps between my nav and header and on the sides of all the elements that aren't white. I couldn't figure out how to get that out and keep it responsive. I had some ideas to solve this using fixed positioning which knocked out the whitespace but it made it less responsive. I'm sure it has something to do with the way I positioned the text and links within the header, but I couldn't isolate it.
+- Breakpoints: Beyond the width of the background image  it doesn't look very good. When the cat boxes stack 2 on top of 1 it doesn't look very good, but if you shrink it a little more they stack 1-1-1 which looks better.

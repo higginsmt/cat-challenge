@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+    body {
+      font-family: 'PT Sans', sans-serif;
+      color: #606060;
+    }
+
+    a:hover {
+      color: black;
+    }
+
+    nav {
+      display: inline-block;
+      height: 80px;
+      width: 100%;
+      background-color: #F0F0F0;
+    }
+
+    nav li {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #606060;
+    }
+
+    nav #innernav {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      height: 60px;
+      width: 80%;
+    }
+
+    nav #meh {
+      padding-top: 15px;
+      float:left;
+      font-size:20pt;
+    }
+
+    nav #navlinks {
+      padding-top: 10px;
+      float: right;
+      font-size: 10pt;
+    }
+
+    header {
+      display: block;
+      background-image: url("banner.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 499px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    header #ohgreat {
+      padding-left: 12%;
+      padding-top: 8%;
+    }
+
+    header .bigtext {
+      padding: 8px;
+      color: white;
+      font-weight: bold;
+      font-size: 28pt;
+    }
+
+    section {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+    section .container {
+      background-color: white;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    section .catbox {
+      background-image: linear-gradient(rgba(1, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("grumpy1.jpg");
+      opacity: .9;
+      display: inline-block;
+      height: 225px;
+      width: 225px;
+      margin: 5px;
+      border: 2px solid grey;
+    }
+
+    section .boxtext {
+      text-align: center;
+      color: white;
+      font-size: 18pt;
+      margin-top: 100px;
+    }
+
+    hr {
+      border: 0;
+      height: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .hspace {
+      height: 50px;
+      width: 100%;
+    }
+
+    section .newscontainer {
+      background-color: pink;
+      width: 80%;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    section .float-left {
+      float: left;
+      padding-right: 5%;
+    }
+
+    section .inline-right {
+      display: inline;
+    }
+
+    footer {
+      background-color: #545454;
+      color: #D2D2D2;
+      font-size: 10pt;
+    }
+
+    footer a {
+      color: #D2D2D2;
+      text-decoration: none;
+    }
+
+    footer .submenu1 {
+      display: inline-block;
+      margin-left: 18%;
+      margin-top: 10%
+      margin-bottom: 10%;
+    }
+
+    footer .submenu {
+      display: inline-block;
+      margin-left: 10%;
+      margin-top: 10%
+      margin-bottom: 10%;
+    }
+  </style>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <nav>
+    <div id="innernav">
+      <div id="meh">
+        meh
+      </div>
+      <ul id="navlinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div id="ohgreat">
+      <div class="bigtext"> oh great... </div>
+      <div class="bigtext"> I'm a background.</div>
+    </div>
+  </header>
+
+  <section id="1">
+    <div class="container">
+      <h1>Lorem Ipsum is simply dummy</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's stanard dummy text ever since the 1500's, when an unknown</p>
+    </div>
+    <div class="container">
+      <div class="catbox">
+        <div class="boxtext">lorem ipsum</div>
+      </div>
+      <div class="catbox">
+        <div class="boxtext">lorem ipsum</div>
+      </div>
+      <div class="catbox">
+        <div class="boxtext">lorem ipsum</div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="2">
+    <div class="news_container">
+      <div class="float-left">
+        <img src="grumpy2.jpg">
+      </div>
+      <div class="inline-right">
+        <h3>Lorem Ipsum is simply</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's stanard dummy text ever since the 1500's, when an unknown printer took a galley of type and scrambled it to make a type speciment book. It has survived not only five centuries, but also the leap into electronic typsetting, remaining essentially unchanged.</p>
+      </div>
+    </div>
+
+    <div class="hspace"></div>
+
+    <div class="news_container">
+      <div class="float-left">
+        <img src="grumpy2.jpg">
+      </div>
+      <div class="inline-right">
+        <h3>Lorem Ipsum is simply</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's stanard dummy text ever since the 1500's, when an unknown printer took a galley of type and scrambled it to make a type speciment book. It has survived not only five centuries, but also the leap into electronic typsetting, remaining essentially unchanged.</p>
+      </div>
+    </div>
+
+    <div class="hspace"></div>
+
+    <div class="news_container">
+      <div class="float-left">
+        <img src="grumpy2.jpg">
+      </div>
+      <div class="inline-right">
+        <h3>Lorem Ipsum is simply</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's stanard dummy text ever since the 1500's, when an unknown printer took a galley of type and scrambled it to make a type speciment book. It has survived not only five centuries, but also the leap into electronic typsetting, remaining essentially unchanged.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="hspace"></div>
+
+    <div class="links_container>">
+      <div class="submenu1">
+        <h3>Sub Menu</h3>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+      </div>
+
+      <div class="submenu">
+        <h3>Sub Menu</h3>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+      </div>
+
+      <div class="submenu">
+        <h3>Sub Menu</h3>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+      </div>
+
+      <div class="submenu">
+        <h3>Sub Menu</h3>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+        <div><a href="#">Menu Item</a></div>
+      </div>
+    </div>
+
+    <div class="hspace"></div>
+  </footer>
+</body>
+</html>
